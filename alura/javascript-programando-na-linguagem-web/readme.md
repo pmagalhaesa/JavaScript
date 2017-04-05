@@ -7,11 +7,11 @@
 
 ### Mensagem no navegador
 - Duas maneiras de mostrar uma mensagem no navegador:
-```html
+```javascript
 <script>
-  1- aparecer uma mensagem de alerta pop-up
+//  1- aparecer uma mensagem de alerta pop-up
   alert("Ola mundo");
-  2- aparecer mensagem no console
+//  2- aparecer mensagem no console
   console.log("Oi mundo");
 </script>
 ```
@@ -21,19 +21,19 @@
 
 #### Manipulação do DOM - Query Selector
 - Para pesquisar alguma coisa do document usa-se a função querySelector() no final da página, como por exemplo:
-```html
+```javascript
  console.log(document.querySelector("h1"));
 ```
 - Para salvar a parte do document encontrada em uma variavel:
-```html
+```javascript
    var titulo = document.querySelector("h1");
 ```
 - Para imprimir o conteudo de uma variavel:
-```html
+```javascript
    console.log(titulo.textContent);
 ```
 - Para manipular o conteudo de uma tag é só igualar a um outro conteudo:
-```html
+```javascript
 titulo.textContent = "Banana";
 ```
 
